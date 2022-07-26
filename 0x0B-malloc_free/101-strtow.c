@@ -80,7 +80,7 @@ free(strings[w]);
 free(strings);
 return (NULL);
 }
-for(l = 0; l < letters; l++)
+for (l = 0; l < letters; l++)
 strings[w][l] = str[index++];
 strings[w][l] = '\0';
 }
